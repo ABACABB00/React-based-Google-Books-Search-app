@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 10vh;
+  background: rgb(73,79,83);
+  color: white;
+}
+
+nav i {
+  margin: 0 50px 0 20px;
+
+}
+
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.nav-links li:hover {
+  color: #bbb;
+}
